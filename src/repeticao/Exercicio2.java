@@ -14,6 +14,7 @@ public class Exercicio2 {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Digite um numero:");
 			numeros[i] = scan.nextInt();
+			
 		}
 		
 		scan.close();
@@ -26,7 +27,7 @@ public class Exercicio2 {
 				System.out.println("O numero "+ numeros[i] + " é impar.");
 			}
 		}
-
+		
 	}
 
 }
