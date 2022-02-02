@@ -29,5 +29,9 @@ public class animal {
 	public void setSom(boolean som) {
 		this.som = som;
 	}
+	
+	public void emitirSom() {
+		System.out.println("O animal esta emitindo som.");
+	}
 
 }

@@ -6,4 +6,11 @@ public class cachorro extends animal {
 		System.out.println("O cachorro esta correndo.");
 	}
 
+	@Override
+	public void emitirSom() {
+		System.out.println("O cachorro está latindo.");
+	}
+	
+	
+
 }
